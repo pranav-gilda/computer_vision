@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+testenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# Ignore large model files (keep only essential ones)
+*.pth
+*.pt
+*.onnx
+*.caffemodel
+*.bin
+
+# Ignore large datasets
+proj1/training/
+proj1/testing/
+proj3/2011_09_26/
+proj2/*.mp4
+capstone/
+face_emo/
+
+
+# Ignore temporary files
+temp_*
+*.tmp
+*.log
+
+# Ignore calibration files (user-specific)
+calibration.json
+calibration_cycle.json
+temp_calibration_frame.jpg
+
+# Ignore output videos
+*_output*.mp4
+tracked_output*.mp4
+
+# Keep essential files
+!yolov5s.pt
+!yolov8n.pt
+!Test_Drive.mp4
+!test_video.mp4
+!proj4/test_image.png
+!requirements.txt
