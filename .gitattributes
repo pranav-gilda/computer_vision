@@ -1,0 +1,23 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Video files
+*.mp4 binary
+*.avi binary
+*.mov binary
+
+# Model files
+*.pth binary
+*.pt binary
+*.onnx binary
+*.caffemodel binary
+
+# Jupyter notebooks
+*.ipynb text
